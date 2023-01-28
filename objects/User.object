@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>User_Function__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select or remove the Functions the User should or should not have. This will automatically assign or unassign the related Permission Sets.</inlineHelpText>
+        <label>User Function</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CRMUserPsl</fullName>
+                    <default>false</default>
+                    <label>CRM User</label>
+                </value>
+                <value>
+                    <fullName>B2BBuyerManager</fullName>
+                    <default>false</default>
+                    <label>Buyer Manager</label>
+                </value>
+                <value>
+                    <fullName>My_First_PS_Group</fullName>
+                    <default>false</default>
+                    <label>My First PSAG</label>
+                </value>
+                <value>
+                    <fullName>SchedulingLineAmbassadorPsl</fullName>
+                    <default>false</default>
+                    <label>Queue Manager</label>
+                </value>
+                <value>
+                    <fullName>DeveloperAdmin</fullName>
+                    <default>false</default>
+                    <label>Developer Admin</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+</CustomObject>

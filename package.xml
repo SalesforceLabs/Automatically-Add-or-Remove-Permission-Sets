@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin%3A Automatically Add or Remove Permission Set%28s%29 and License%28s%29</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>Automatically Add or Remove Permission Set(s) and License(s)</description>
+    <namespacePrefix>labspermsets</namespacePrefix>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Flow</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Update_User_Permissions_Sets_or_Licenses</referencedByName>
+    </orgFeaturePayloads>
+    <types>
+        <members>User.User_Function__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Update_User_Permissions_Sets_or_Licenses-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>54.0</version>
+</Package>
